@@ -1,0 +1,47 @@
+title: Henry Cronley
+tagline: Data Science & Machine Learning
+description: >-
+  Portfolio of Henry Cronley — data science and machine learning work spanning
+  time series forecasting, mass appraisal analytics, and LLM-backed applications.
+
+url: "https://hcronley.github.io"
+baseurl: ""
+
+author:
+  name: Henry Cronley
+  email: hcronley14@gmail.com
+  github: hcronley
+  # TODO: add your LinkedIn vanity slug (the part after /in/) to show the icon.
+  linkedin: ""
+
+# TODO (optional): set your GA4 measurement ID, e.g. G-XXXXXXXXXX.
+# Left blank, no analytics script is emitted at all.
+google_analytics:
+
+nav:
+  - title: Projects
+    url: /#projects
+  - title: About
+    url: /aboutme
+  - title: Archive
+    url: /archive
+  - title: Contact
+    url: /#contact
+
+# Pages build to /name/ rather than /name.html, so the extension-less links
+# used throughout the site resolve without relying on server-side fallback.
+permalink: pretty
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .venv
+  - README.md
